@@ -1,10 +1,10 @@
 @font-face {
   font-family: OpenSans-Light;
-  src: url(../fonts/OpenSans-Light.ttf);
+  src: url(/public/fonts/OpenSans-Light.ttf);
 }
 @font-face {
   font-family: Montserrat;
-  src: url(../fonts/Montserrat-Regular.ttf);
+  src: url(/public/fonts/Montserrat-Regular.ttf);
 }
 
 html, body{
@@ -252,7 +252,7 @@ a {
   margin-top: 40px;
 }
 .pages-wrapper {
-  padding: 0 1em 0 1em;
+  padding: 0 1em 6em 1em;
 }
 .intro h2 {
   text-align: center;
@@ -311,6 +311,9 @@ a {
 }
 .projectDescription a {
   text-decoration: underline;
+}
+.projectDescription {
+  font-size: 18px;
 }
 li.tile {
   /*position: relative;*/

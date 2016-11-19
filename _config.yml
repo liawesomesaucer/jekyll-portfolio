@@ -37,3 +37,8 @@ future: true
 timezone: America/Los_Angeles
 
 highlighter: rouge
+
+# Jekyll collections
+collections:
+  projects:
+    output: true

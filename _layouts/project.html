@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="page" style="background-color: {{ page.backgroundcolor }}">
+  <div class="pages-wrapper">
+
+    <div class="page-project">
+      <div class="project-header">
+        <div class="inline">
+          <div class="vincent-icon vincent-icon-small inline-vincent"></div>
+        </div>
+        <div class="inline projectDescription" style="margin-top: 10px; color: white">
+          <!-- <h1>{{> project['name']}}</h1> -->
+          <a href="{{ page.link }}" target="_blank">
+            <h1 class="projectName">{{ page.title }}<i class="fa fa-external-link"></i></h1>
+          </a>
+          <!-- <h2>{{> project['description']}}</h2> -->
+          {{ content }}
+        </div>
+      </div>
+
+      <!-- <a href="#" class="showMore"><p class="showMore" style="text-align: center;color: white;">Show More</p></a> -->
+      
+      <div class="project-body">
+        <a href="http://liawesomesaucer.github.io/multiple-search" target="_blank">
+          <img class="project-img" id="projectName" src="/public/images/{{ page.image }}">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .footer {
+      position: relative;
+      top: -3em;
+    }
+    .footer p,
+    .footer a {
+      color: white;
+    }
+  </style>
