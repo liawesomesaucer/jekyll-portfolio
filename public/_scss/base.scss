@@ -246,6 +246,9 @@ a {
     padding-bottom: 50px;
   }
 }
+.main-msg a {
+  border-bottom: 2px solid;
+}
 .content {
   background-color: #e6e6e6;
   /*padding: 10%;*/
@@ -260,6 +263,15 @@ a {
 .intro {
   max-width: 600px;
   margin: auto;
+}
+.intro-content p {
+  line-height: 1.6;
+}
+.intro-content a {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 2px solid;
 }
 .intro-text {
   font-size: 24px;
