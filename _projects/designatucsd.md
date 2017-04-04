@@ -8,8 +8,8 @@ tags:
 - Jekyll
 - HTML/CSS
 - Bootstrap
-link: http://designatucsd.org
-github: https://github.com/designucsd/designucsd.github.io
+link: http://2016.designatucsd.org
+github: https://github.com/designucsd/2016
 backgroundcolor: rgb(88,110,121)
 order: 2
 ---
