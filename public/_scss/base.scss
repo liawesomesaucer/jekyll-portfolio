@@ -221,16 +221,23 @@ a {
   font-size: 42px;
 }
 .main {
-  text-align: center;
-  width: 80%;
   letter-spacing: 1px;
   z-index:15;
   margin: auto;
+  max-width: 1000px;
+
+  @media screen and (min-width: 800px) {
+    &>div {
+      max-width: 800px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
 }
 .main-wrapper {
   width: 100%;
-  padding-top: 120px;
-  padding-bottom: 80px;
+  padding: 60px 0;
   /* originally 57, 66, 85 */
   background-color: rgb(57, 66, 85);
   /*background: linear-gradient(rgba(54, 63, 81, 0.95), rgba(54, 63, 81, 0.9)), url(images/sf_goldengate.jpg) no-repeat center center;*/
