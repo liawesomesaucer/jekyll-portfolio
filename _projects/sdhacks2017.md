@@ -17,7 +17,7 @@ SD Hacks is scheduled for this October 20-22nd and still in the planning stage, 
 
 [Accompanying styleguide](https://invis.io/HZCT92XR5#/246860480_Styleguide)
 
-My role: Lead Designer + Frontend Developer
+My role: Designer + Frontend Developer
 
 A couple months after a successful SD Hacks 2016, I and some of the SD Hacks team took some steps back and evaluated where our web presence stood as a whole. Our previous site was a combination of many attempted themes, with a difficult (and corporate looking) color scheme. (I'll bash it all I want, because I designed it.) The team decided to start a rebrand from scratch, deciding only to keep the logo.
 
@@ -26,7 +26,9 @@ We started at the drawing board and asked ourselves what we'd like each and ever
 *At SD Hacks, we're about:*
 
 > *Empowerment* - We provide all hackers with expertise, hardware and software so they can build their dreams.
+
 > *Collaboration* - We’re all here as fellow mentors, 4am-ers, and friends.
+
 > *Innovation* - We strive to make each SD Hacks a memorable learning experience for all.
 
 With our core values in mind I began drafting some rough UI mocks and brainstorming the color scheme. Inspired by various flat UI and maritime color schemes, along with the sunny, beachy aesthetic of UC San Diego, I chose light, ocean-friendly colors, with the blue based on our current logo.
