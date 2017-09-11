@@ -8,7 +8,7 @@ tags:
 - Design
 - Rebranding
 - HTML/CSS
-link: https://sdhacks.io
+link: https://www.sdhacks.io
 github: https://github.com/sdhacks/sdhacks2017
 backgroundcolor: rgb(43, 98, 120)
 order: 8
@@ -19,7 +19,7 @@ SD Hacks is scheduled for this October 20-22nd and still in the planning stage, 
 
 My role: Designer + Frontend Developer
 
-A couple months after a successful SD Hacks 2016, I and some of the SD Hacks team took some steps back and evaluated where our web presence stood as a whole. Our previous site was a combination of many attempted themes, with a difficult (and corporate looking) color scheme. (I'll bash it all I want, because I designed it.) The team decided to start a rebrand from scratch, deciding only to keep the logo.
+A couple months after a successful SD Hacks 2016, I and some of the SD Hacks team took some steps back and evaluated where our web presence stood as a whole. Our [previous site](http://2016.sdhacks.io/) was a combination of many attempted themes, with a difficult (and corporate looking) color scheme. (I'll bash it all I want, because I designed it.) The team decided to start a rebrand from scratch, deciding only to keep the logo.
 
 We started at the drawing board and asked ourselves what we'd like each and every attendee to feel when attending SD Hacks. After much parallel prototyping and discussion, we arrived at three primary core values:
 
