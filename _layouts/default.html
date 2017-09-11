@@ -26,28 +26,26 @@
 
 </head>
 <body>
-
-  <!-- <header style="background-color: transparent; color: white"> -->
   <header>
     <div class="nav-wrapper">
       <div class="nav">
-        <ul>
+        <ul class="li-nav__links">
           <a name="top"></a>
-          <a href="/"><li class="li-nav float-left"><b>Vincent <span class="lastname">Liaw</span></b></li></a>
-          <a href="/public/files/vincent_liaw_resume.pdf" target="_blank"><li class="li-nav float-right">Resume</li></a>
-          <a href="/#work"><li class="li-nav float-right">Work</li></a>
+          <a href="/"><li class="li-nav float-left li-nav__header">Vincent <span class="lastname">Liaw</span></li></a>
+          <a href="/public/files/vincent_liaw_resume.pdf" target="_blank"><li class="li-nav float-right li-nav__link">Resume</li></a>
+          <a href="/#work"><li class="li-nav float-right li-nav__link">Work</li></a>
         </ul>
       </div>
     </div>
   </header>
-  <!-- Main stuff would go here --><div class="content">
+
+  <div class="content">
     {{ content }}
 
     <div class="footer">
       <p><a class="thick" href="/public/files/vincent_liaw_resume.pdf" target="_blank">Resume</a> | <a class="thick" href="index.html#work">Work</a> | <a class="thick" href="https://github.com/liawesomesaucer">GitHub</a></p>
     </div>
   </div>
-
 
   <script>
   // Google Analytics

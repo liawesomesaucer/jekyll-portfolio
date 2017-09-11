@@ -1,56 +1,26 @@
 ---
 layout: default
 ---
-
-
 <div class="main-wrapper">
 	<div class="main 1p-height">
-		<!--<div class="main-img">
-			<div class="vincent-icon"></div>
-		</div>-->
-
 		<div class="main-msg">
 			<h1>Hi, I'm <b>Vincent.</b></h1>
-			<!--<h3>I'm really, really fascinated by <strong>edtech</strong> right now.-->
-				<h3>I study <strong>CompSci</strong> and <strong>CogSci</strong> at <strong>UCSD</strong>, graduating <strong>2018</strong>.</h3>
-				<h3>My interests lie in designing and crafting usable and aesthetic products through <strong>UX design</strong> and <strong>development</strong>. Need more info? Check out my <a target="_blank" href="/public/files/vincent_liaw_resume.pdf"><strong>Resume</strong></a>.<h3>
-				<!--<h3><a href="http://hackday.sdhacks.io/" target="_blank"><strong>Here's</strong></a> something I've designed and built recently</h3>-->
+			<h3>I study <strong>CompSci</strong> and <strong>CogSci</strong> at <strong>UCSD</strong>, graduating <strong>2018</strong>.</h3>
+			<h3>My interests lie in designing and crafting usable and aesthetic products through <strong>UX design</strong> and <strong>development</strong>. Need more info? Check out my <a target="_blank" href="/public/files/vincent_liaw_resume.pdf"><strong>Resume</strong></a>.<h3>
 		</div>
-
-		<!--<ul class="quick-links">
-			<a href="https://github.com/liawesomesaucer"><li><i class="fa fa-github-square"></i></li></a>
-			<a href="mailto:vcliaw@ucsd.edu"><li><i class="fa fa-envelope"></i></li></a>
-			<a href="https://linkedin.com/in/vincentliaw"><li><i class="fa fa-linkedin-square"></i></li></a>
-		</ul>-->
 		<div class="intro-links">
 			<p>Github: @<a target="_blank" href="https://github.com/liawesomesaucer"><strong>liawesomesaucer</strong></a></p>
 			<p>Linkedin: <a target="_blank" href="https://linkedin.com/in/vincentliaw"><strong>vincentliaw</strong></a></p>
 			<p>Email: <a target="_blank" href="mailto:vcliaw@ucsd.edu"><strong>vcliaw@ucsd.edu</strong></a></p>
 		</div>
 		<div class="main-msg">
-	  <h3>I'm currently looking for full time positions! Feel free to <a href="mailto:vcliaw@ucsd.edu"><strong>reach out</strong></a>.</h3>
+			<h3>I'm currently looking for full time positions! Feel free to <a href="mailto:vcliaw@ucsd.edu"><strong>reach out</strong></a>.</h3>
 		</div>
-
 	</div>
 </div>
 
 <div class="pages-wrapper">
-<!--
-	<div class="page-intro-wrapper">
-		<div class="page intro">
-			<h2 class="page-header">Hello.</h2>
-			<div class="intro-content">
-				<p>
-					I'm currently a developer at <a target="_blank" href="http://www.tsm.gg/"><strong>Team Solomid</strong></a>, an Instructional Assistant for <a target="_blank" href="http://ixd.ucsd.edu/home/w17/index.php"><strong>Scott Klemmer's COGS 120</strong></a>, and the <a target="_blank" href="https://www.sdhacks.io"><strong>SD Hacks</strong></a> tech lead for 2017.
-				</p>
-				<p class="intro-text">
-					Headed to <strong>LinkedIn</strong> this summer, but am looking for <strong>FA17</strong> or <strong>WI18</strong> <strong>Software Engineering </strong> and <strong>Frontend Engineering </strong> internships.
-				</p>
-			</div>
-		</div>
-	</div>-->
-
-	<!--  List of sites -->
+  <!--  List of sites -->
 	<div class="page-content-wrapper" id="work">
 		<div class="page">
 			<div class="page-projects">
@@ -58,40 +28,38 @@ layout: default
 
 				<div class="project-list">
 					<ul class="projects inner-ul">
-							
-							{% assign projects = site.projects | sort: 'date' %}
-							{% for project in projects reversed %}
-								<li class="tile">
-									<div class="grid tiled">
-										<a href="{{ project.url }}">
-											<div class="img_wrapper" style="background-color:{{ project.backgroundcolor }}">
-												<!-- <img src="{{ img_url }}" alt="vincent3"/> -->
-												<div class="img_inner" style="background: url(/public/images/{{ project.tile_image }}) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
-											</div>
-										</a>	
-										<div class="tile-text">
-											<a href="{{ project.link }}" target="_blank">
-												<h2 class="tile-header" style="color:{{ project.backgroundcolor }};"><span>{{ project.title }}</span><i class="fa fa-external-link"></i></h2>
-											</a>
-											<p class="tile-description">{{ project.excerpt }}</p>
-											<ul class="tile-tags">
-												{% for tag in project.tags %}
-													<li>{{ tag }}</li>
-												{% endfor %}
-											</ul>
-											{% if project.github %}
-												<a class="tile-text-right" target="_blank" href="{{ project.github }}">
-													<i class="fa fa-github-square"></i><br>
-													<p>Code</p>
-												</a>
-											{% endif %}
+						{% assign projects = site.projects | sort: 'date' %}
+						{% for project in projects reversed %}
+							<li class="tile">
+								<div class="grid tiled">
+									<a href="{{ project.url }}">
+										<div class="img_wrapper" style="background-color:{{ project.backgroundcolor }}">
+											<div class="img_inner" style="background: url(/public/images/{{ project.tile_image }}) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
 										</div>
+									</a>	
+									<div class="tile-text">
+										<a href="{{ project.link }}" target="_blank">
+											<h2 class="tile-header" style="color:{{ project.backgroundcolor }};"><span>{{ project.title }}</span><i class="fa fa-external-link"></i></h2>
+										</a>
+										<p class="tile-description">{{ project.excerpt }}</p>
+										<ul class="tile-tags">
+											{% for tag in project.tags %}
+												<li>{{ tag }}</li>
+											{% endfor %}
+										</ul>
+										{% if project.github %}
+											<a class="tile-text-right" target="_blank" href="{{ project.github }}">
+												<i class="fa fa-github-square"></i><br>
+												<p>Code</p>
+											</a>
+										{% endif %}
 									</div>
-								</li>
-							{% endfor %}
-						</ul>
-					</div>
+								</div>
+							</li>
+						{% endfor %}
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>

@@ -24,69 +24,40 @@
 
 </head>
 <body>
-
-  <!-- <header style="background-color: transparent; color: white"> -->
   <header>
     <div class="nav-wrapper">
       <div class="nav">
-        <ul>
+        <ul class="li-nav__links">
           <a name="top"></a>
-          <a href="/"><li class="li-nav float-left"><b>Vincent <span class="lastname">Liaw</span></b></li></a>
-          <a href="/public/files/vincent_liaw_resume.pdf" target="_blank"><li class="li-nav float-right">Resume</li></a>
-          <a href="/#work"><li class="li-nav float-right">Work</li></a>
+          <a href="/"><li class="li-nav float-left li-nav__header">Vincent <span class="lastname">Liaw</span></li></a>
+          <a href="/public/files/vincent_liaw_resume.pdf" target="_blank"><li class="li-nav float-right li-nav__link">Resume</li></a>
+          <a href="/#work"><li class="li-nav float-right li-nav__link">Work</li></a>
         </ul>
       </div>
     </div>
   </header>
-  <!-- Main stuff would go here --><div class="content">
+
+  <div class="content">
     <div class="main-wrapper">
 	<div class="main 1p-height">
-		<!--<div class="main-img">
-			<div class="vincent-icon"></div>
-		</div>-->
-
 		<div class="main-msg">
 			<h1>Hi, I'm <b>Vincent.</b></h1>
-			<!--<h3>I'm really, really fascinated by <strong>edtech</strong> right now.-->
-				<h3>I study <strong>CompSci</strong> and <strong>CogSci</strong> at <strong>UCSD</strong>, graduating <strong>2018</strong>.</h3>
-				<h3>My interests lie in designing and crafting usable and aesthetic products through <strong>UX design</strong> and <strong>development</strong>. Need more info? Check out my <a target="_blank" href="/public/files/vincent_liaw_resume.pdf"><strong>Resume</strong></a>.<h3>
-				<!--<h3><a href="http://hackday.sdhacks.io/" target="_blank"><strong>Here's</strong></a> something I've designed and built recently</h3>-->
+			<h3>I study <strong>CompSci</strong> and <strong>CogSci</strong> at <strong>UCSD</strong>, graduating <strong>2018</strong>.</h3>
+			<h3>My interests lie in designing and crafting usable and aesthetic products through <strong>UX design</strong> and <strong>development</strong>. Need more info? Check out my <a target="_blank" href="/public/files/vincent_liaw_resume.pdf"><strong>Resume</strong></a>.<h3>
 		</div>
-
-		<!--<ul class="quick-links">
-			<a href="https://github.com/liawesomesaucer"><li><i class="fa fa-github-square"></i></li></a>
-			<a href="mailto:vcliaw@ucsd.edu"><li><i class="fa fa-envelope"></i></li></a>
-			<a href="https://linkedin.com/in/vincentliaw"><li><i class="fa fa-linkedin-square"></i></li></a>
-		</ul>-->
 		<div class="intro-links">
 			<p>Github: @<a target="_blank" href="https://github.com/liawesomesaucer"><strong>liawesomesaucer</strong></a></p>
 			<p>Linkedin: <a target="_blank" href="https://linkedin.com/in/vincentliaw"><strong>vincentliaw</strong></a></p>
 			<p>Email: <a target="_blank" href="mailto:vcliaw@ucsd.edu"><strong>vcliaw@ucsd.edu</strong></a></p>
 		</div>
 		<div class="main-msg">
-	  <h3>I'm currently looking for full time positions! Feel free to <a href="mailto:vcliaw@ucsd.edu"><strong>reach out</strong></a>.</h3>
+			<h3>I'm currently looking for full time positions! Feel free to <a href="mailto:vcliaw@ucsd.edu"><strong>reach out</strong></a>.</h3>
 		</div>
-
 	</div>
 </div>
 
 <div class="pages-wrapper">
-<!--
-	<div class="page-intro-wrapper">
-		<div class="page intro">
-			<h2 class="page-header">Hello.</h2>
-			<div class="intro-content">
-				<p>
-					I'm currently a developer at <a target="_blank" href="http://www.tsm.gg/"><strong>Team Solomid</strong></a>, an Instructional Assistant for <a target="_blank" href="http://ixd.ucsd.edu/home/w17/index.php"><strong>Scott Klemmer's COGS 120</strong></a>, and the <a target="_blank" href="https://www.sdhacks.io"><strong>SD Hacks</strong></a> tech lead for 2017.
-				</p>
-				<p class="intro-text">
-					Headed to <strong>LinkedIn</strong> this summer, but am looking for <strong>FA17</strong> or <strong>WI18</strong> <strong>Software Engineering </strong> and <strong>Frontend Engineering </strong> internships.
-				</p>
-			</div>
-		</div>
-	</div>-->
-
-	<!--  List of sites -->
+  <!--  List of sites -->
 	<div class="page-content-wrapper" id="work">
 		<div class="page">
 			<div class="page-projects">
@@ -94,146 +65,141 @@
 
 				<div class="project-list">
 					<ul class="projects inner-ul">
-							
-							
-							
-								<li class="tile">
-									<div class="grid tiled">
-										<a href="/projects/tsmgg.html">
-											<div class="img_wrapper" style="background-color:rgb(34,39,52)">
-												<!-- <img src="" alt="vincent3"/> -->
-												<div class="img_inner" style="background: url(/public/images/tsmgg.jpg) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
-											</div>
-										</a>	
-										<div class="tile-text">
-											<a href="http://tsm.gg" target="_blank">
-												<h2 class="tile-header" style="color:rgb(34,39,52);"><span>TSM.GG</span><i class="fa fa-external-link"></i></h2>
-											</a>
-											<p class="tile-description">Team Solomid's News Site</p>
-											<ul class="tile-tags">
-												
-													<li>Express</li>
-												
-													<li>React</li>
-												
-													<li>Redux</li>
-												
-													<li>Heroku</li>
-												
-											</ul>
-											
+						
+						
+							<li class="tile">
+								<div class="grid tiled">
+									<a href="/projects/tsmgg.html">
+										<div class="img_wrapper" style="background-color:rgb(34,39,52)">
+											<div class="img_inner" style="background: url(/public/images/tsmgg.jpg) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
 										</div>
+									</a>	
+									<div class="tile-text">
+										<a href="http://tsm.gg" target="_blank">
+											<h2 class="tile-header" style="color:rgb(34,39,52);"><span>TSM.GG</span><i class="fa fa-external-link"></i></h2>
+										</a>
+										<p class="tile-description">Team Solomid's News Site</p>
+										<ul class="tile-tags">
+											
+												<li>Express</li>
+											
+												<li>React</li>
+											
+												<li>Redux</li>
+											
+												<li>Heroku</li>
+											
+										</ul>
+										
 									</div>
-								</li>
-							
-								<li class="tile">
-									<div class="grid tiled">
-										<a href="/projects/sdhacks2017.html">
-											<div class="img_wrapper" style="background-color:rgb(43, 98, 120)">
-												<!-- <img src="" alt="vincent3"/> -->
-												<div class="img_inner" style="background: url(/public/images/sdhacks2017_front.png) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
-											</div>
-										</a>	
-										<div class="tile-text">
-											<a href="https://sdhacks.io" target="_blank">
-												<h2 class="tile-header" style="color:rgb(43, 98, 120);"><span>SD Hacks 2017</span><i class="fa fa-external-link"></i></h2>
-											</a>
-											<p class="tile-description">Redesigning SD Hacks.</p>
-											<ul class="tile-tags">
-												
-													<li>Design</li>
-												
-													<li>Rebranding</li>
-												
-													<li>HTML/CSS</li>
-												
-											</ul>
-											
-												<a class="tile-text-right" target="_blank" href="https://github.com/sdhacks/sdhacks2017">
-													<i class="fa fa-github-square"></i><br>
-													<p>Code</p>
-												</a>
-											
+								</div>
+							</li>
+						
+							<li class="tile">
+								<div class="grid tiled">
+									<a href="/projects/sdhacks2017.html">
+										<div class="img_wrapper" style="background-color:rgb(43, 98, 120)">
+											<div class="img_inner" style="background: url(/public/images/sdhacks2017_front.png) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
 										</div>
-									</div>
-								</li>
-							
-								<li class="tile">
-									<div class="grid tiled">
-										<a href="/projects/hackday.html">
-											<div class="img_wrapper" style="background-color:rgb(78, 56, 99)">
-												<!-- <img src="" alt="vincent3"/> -->
-												<div class="img_inner" style="background: url(/public/images/hackday_front.png) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
-											</div>
-										</a>	
-										<div class="tile-text">
-											<a href="http://hackday.sdhacks.io" target="_blank">
-												<h2 class="tile-header" style="color:rgb(78, 56, 99);"><span>Hackday</span><i class="fa fa-external-link"></i></h2>
+									</a>	
+									<div class="tile-text">
+										<a href="https://sdhacks.io" target="_blank">
+											<h2 class="tile-header" style="color:rgb(43, 98, 120);"><span>SD Hacks 2017</span><i class="fa fa-external-link"></i></h2>
+										</a>
+										<p class="tile-description">Redesigning SD Hacks.</p>
+										<ul class="tile-tags">
+											
+												<li>Design</li>
+											
+												<li>Rebranding</li>
+											
+												<li>HTML/CSS</li>
+											
+										</ul>
+										
+											<a class="tile-text-right" target="_blank" href="https://github.com/sdhacks/sdhacks2017">
+												<i class="fa fa-github-square"></i><br>
+												<p>Code</p>
 											</a>
-											<p class="tile-description">Small workshop-focused hackathons.</p>
-											<ul class="tile-tags">
-												
-													<li>HTML/CSS</li>
-												
-													<li>JQuery</li>
-												
-													<li>Bootstrap</li>
-												
-											</ul>
-											
-												<a class="tile-text-right" target="_blank" href="https://github.com/sdhacks/hackday2017">
-													<i class="fa fa-github-square"></i><br>
-													<p>Code</p>
-												</a>
-											
-										</div>
+										
 									</div>
-								</li>
-							
-								<li class="tile">
-									<div class="grid tiled">
-										<a href="/projects/designatucsd2017.html">
-											<div class="img_wrapper" style="background-color:rgb(101, 161, 186)">
-												<!-- <img src="" alt="vincent3"/> -->
-												<div class="img_inner" style="background: url(/public/images/designatucsd_front.png) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
-											</div>
-										</a>	
-										<div class="tile-text">
-											<a href="http://designatucsd.org" target="_blank">
-												<h2 class="tile-header" style="color:rgb(101, 161, 186);"><span>Design at UCSD</span><i class="fa fa-external-link"></i></h2>
+								</div>
+							</li>
+						
+							<li class="tile">
+								<div class="grid tiled">
+									<a href="/projects/hackday.html">
+										<div class="img_wrapper" style="background-color:rgb(78, 56, 99)">
+											<div class="img_inner" style="background: url(/public/images/hackday_front.png) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
+										</div>
+									</a>	
+									<div class="tile-text">
+										<a href="http://hackday.sdhacks.io" target="_blank">
+											<h2 class="tile-header" style="color:rgb(78, 56, 99);"><span>Hackday</span><i class="fa fa-external-link"></i></h2>
+										</a>
+										<p class="tile-description">Small workshop-focused hackathons.</p>
+										<ul class="tile-tags">
+											
+												<li>HTML/CSS</li>
+											
+												<li>JQuery</li>
+											
+												<li>Bootstrap</li>
+											
+										</ul>
+										
+											<a class="tile-text-right" target="_blank" href="https://github.com/sdhacks/hackday2017">
+												<i class="fa fa-github-square"></i><br>
+												<p>Code</p>
 											</a>
-											<p class="tile-description">Design at UCSD 2017</p>
-											<ul class="tile-tags">
-												
-													<li>HTML/CSS</li>
-												
-													<li>JQuery</li>
-												
-													<li>Bootstrap</li>
-												
-											</ul>
-											
-												<a class="tile-text-right" target="_blank" href="https://github.com/designucsd/designucsd.github.io">
-													<i class="fa fa-github-square"></i><br>
-													<p>Code</p>
-												</a>
-											
-										</div>
+										
 									</div>
-								</li>
-							
-						</ul>
-					</div>
+								</div>
+							</li>
+						
+							<li class="tile">
+								<div class="grid tiled">
+									<a href="/projects/designatucsd2017.html">
+										<div class="img_wrapper" style="background-color:rgb(101, 161, 186)">
+											<div class="img_inner" style="background: url(/public/images/designatucsd_front.png) no-repeat center 0; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></div>
+										</div>
+									</a>	
+									<div class="tile-text">
+										<a href="http://designatucsd.org" target="_blank">
+											<h2 class="tile-header" style="color:rgb(101, 161, 186);"><span>Design at UCSD</span><i class="fa fa-external-link"></i></h2>
+										</a>
+										<p class="tile-description">Design at UCSD 2017</p>
+										<ul class="tile-tags">
+											
+												<li>HTML/CSS</li>
+											
+												<li>JQuery</li>
+											
+												<li>Bootstrap</li>
+											
+										</ul>
+										
+											<a class="tile-text-right" target="_blank" href="https://github.com/designucsd/designucsd.github.io">
+												<i class="fa fa-github-square"></i><br>
+												<p>Code</p>
+											</a>
+										
+									</div>
+								</div>
+							</li>
+						
+					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+
 
     <div class="footer">
       <p><a class="thick" href="/public/files/vincent_liaw_resume.pdf" target="_blank">Resume</a> | <a class="thick" href="index.html#work">Work</a> | <a class="thick" href="https://github.com/liawesomesaucer">GitHub</a></p>
     </div>
   </div>
-
 
   <script>
   // Google Analytics
