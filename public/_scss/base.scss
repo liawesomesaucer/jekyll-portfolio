@@ -160,13 +160,14 @@ header {
   min-height: 150px;
   margin-bottom: 25px;
 }
-ul {
+.inline-list {
   padding-left: 0;
   list-style-type: none;
-}
-li {
-  list-style-type: none;
-  display: inline-block;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
 }
 .li-nav {
   font-size: 18px;

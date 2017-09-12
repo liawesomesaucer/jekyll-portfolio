@@ -25,11 +25,11 @@ We started at the drawing board and asked ourselves what we'd like each and ever
 
 *At SD Hacks, we're about:*
 
-> *Empowerment* - We provide all hackers with expertise, hardware and software so they can build their dreams.
+* *Empowerment* - We provide all hackers with expertise, hardware and software so they can build their dreams.
 
-> *Collaboration* - We’re all here as fellow mentors, 4am-ers, and friends.
+* *Collaboration* - We’re all here as fellow mentors, 4am-ers, and friends.
 
-> *Innovation* - We strive to make each SD Hacks a memorable learning experience for all.
+* *Innovation* - We strive to make each SD Hacks a memorable learning experience for all.
 
 With our core values in mind I began drafting some rough UI mocks and brainstorming the color scheme. Inspired by various flat UI and maritime color schemes, along with the sunny, beachy aesthetic of UC San Diego, I chose light, ocean-friendly colors, with the blue based on our current logo.
 

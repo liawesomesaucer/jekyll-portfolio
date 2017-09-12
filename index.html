@@ -27,7 +27,7 @@ layout: default
 				<h2 class="page-header">Work</h2>
 
 				<div class="project-list">
-					<ul class="projects inner-ul">
+					<ul class="projects inner-ul inline-list">
 						{% assign projects = site.projects | sort: 'date' %}
 						{% for project in projects reversed %}
 							<li class="tile">
