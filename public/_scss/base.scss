@@ -29,8 +29,17 @@ h1, h2, h3, h4, h5, h6, p, a, li, ul{
   letter-spacing: 1px;
   font-weight: 400;
 }
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $header-font-family;
+  padding-top: 15px;
+  margin: 0;
+}
+p {
+  margin: 15px 0;
+  line-height: 1.4;
+}
+h1, h2 {
+  padding-top: 25px;
 }
 strong {
   font-family: $header-font-family;
